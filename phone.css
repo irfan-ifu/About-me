@@ -4,7 +4,7 @@
 }
 /*navbar*/
 .navbar h1{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .navbar ul{
@@ -26,9 +26,9 @@
 .home h1{
     font-size: 3rem;
 }
-.home p{
-    font-size: 2rem;
-    padding: 6px;
+.text-box p{
+    font-size: 1.2rem;
+    margin: auto;
 }
 #btn{
     padding: 5px 30px;
