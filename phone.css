@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*navbar*/
+.navbar h1{
+    font-size: 1.2rem;
+}
+
+.navbar ul{
+    padding: 0px;
+}
+.navbar ul li a{
+    font-size: 1rem;
+    padding: 3px 8px;
+}
+/*home*/
+.home{
+    height: 521px;
+}
+.home img{
+    display: block;
+    height: 300px;
+    margin: 200px 0px;
+}
+.home h1{
+    font-size: 3rem;
+}
+.home p{
+    font-size: 2rem;
+    padding: 6px;
+}
+#btn{
+    padding: 5px 30px;
+    font-size: 1rem;
+}
+.home::before{
+    content: "";
+    background: url('bg3.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 96%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.79px;
+}
+/*about section*/
+
+.about h1{
+    text-align: center;
+    font-size: 3rem;
+    color: red;
+}
+.box h2{
+    text-align: center;
+    font-size: 2rem;
+}
+.box p{
+    font-size: 1.1rem;
+    padding:0px 20px ;
+}
+.box{
+    display: block;
+     border: 2px solid red;
+     text-align: center;
+     margin: 10px 10px; 
+     padding: 80px 30px;
+     height: 212px;
+     width: 260px;
+     border-radius: 40px;
+     background-color: rgb(240, 234, 200);
+}
+.me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/*project*/
+
+.project-item video{
+    height: 190px;
+    margin: 30px 0px;
+    border: 2px solid white;
+}
+.project-item{
+    display: flex;
+    flex-direction: column;
+}
+.project-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0px 10px;
+}
